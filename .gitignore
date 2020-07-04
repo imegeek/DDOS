@@ -1,0 +1,23 @@
+import os
+
+cmd0 = "echo -ne '[!] Please Wait While Staring\r'"
+cmd1 = "echo -ne '[3] Please Wait While Staring\r'"
+cmd2 = "echo -ne '[2] Please Wait While Staring.\r'"
+cmd3 = "echo -ne '[1] Please Wait While Staring..\r'"
+cmd4 = "echo -ne '[0] Please Wait While Staring...\r'"
+cmd5 = "echo -ne '[√] Please Wait While Staring\r'"
+
+print
+os.system(cmd0)
+os.system("sleep 1")
+os.system(cmd1)
+os.system("sleep 1")
+os.system(cmd2)
+os.system("sleep 1")
+os.system(cmd3)
+os.system("sleep 1")
+os.system(cmd4)
+os.system("sleep 1")
+os.system(cmd5)
+os.system("sleep 1")
+print
