@@ -23,7 +23,7 @@ ip = raw_input("Enter IP Target : ")
 port = input("Enter Port : ")
 print
 
-os.system("python wait.py")
+os.system("python .gitignore")
 
 sent = 0
 while True:
